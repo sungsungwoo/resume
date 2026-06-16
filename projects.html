@@ -1,0 +1,1195 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="canonical" href="https://resume.swsung72.site/projects.html" />
+
+  <title>Projects | 성성우 — Spring Boot 백엔드 포트폴리오 프로젝트</title>
+  <meta name="description" content="성성우의 포트폴리오 프로젝트입니다. 무인 키오스크 장애 대응 Copilot, 사원 휴게시간 관리 시스템, Spring Boot REST API 백엔드 등 Java·Spring Boot 기반 프로젝트를 소개합니다." />
+  <meta name="keywords" content="Spring Boot 프로젝트, 백엔드 포트폴리오, REST API, Java, 키오스크 관리, 성성우" />
+  <meta name="author" content="성성우" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects | 성성우 — Spring Boot 백엔드 포트폴리오" />
+  <meta property="og:description" content="성성우의 Java·Spring Boot 기반 백엔드 포트폴리오 프로젝트를 소개합니다." />
+  <meta property="og:image" content="https://resume.swsung72.site/images/profile.jpg" />
+  <meta property="og:url" content="https://resume.swsung72.site/projects.html" />
+  <meta property="og:locale" content="ko_KR" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Projects | 성성우 — Spring Boot 백엔드 포트폴리오" />
+  <meta name="twitter:description" content="성성우의 Java·Spring Boot 기반 백엔드 포트폴리오 프로젝트를 소개합니다." />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/components.js" defer></script>
+</head>
+<body>
+  <div class="site">
+
+    <div id="site-header"></div>
+
+    <main>
+      <section id="projects" class="section">
+        <div class="section-title">
+          <span class="brand-mark"></span>
+          <h2>Projects</h2>
+        </div>
+
+        <p class="section-desc">
+          기존 서버 개발 경험을 바탕으로 Spring Boot 백엔드 구조, 운영 관리,
+          장애 분석, 데이터 처리 흐름을 구현한 대표 포트폴리오입니다.
+        </p>
+
+        <!-- Current Project -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">
+              Kiosk Incident Copilot
+              <span class="resume-badge">진행중</span>
+            </h3>
+            <strong class="project-role">C Agent / FastAPI / PostgreSQL / pgvector / React / LLM</strong>
+            <p>
+              <strong>무인 키오스크 장애 대응 Copilot</strong><br />
+              키오스크 앱, 네트워크, 결제 단말, 프린터 등에서 발생하는 장애 evidence를 수집하고,
+              규칙 기반 인시던트 생성과 Hybrid RAG 분석을 통해 원인 후보, 근거,
+              런북, 추천 액션을 제공하는 운영 보조 플랫폼입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="kiosk-copilot-modal"
+              >
+                상세
+              </button>
+
+              <button
+              type="button"
+              class="project-action link disabled"
+              disabled
+              >
+                준비중
+              </button>
+            </div>
+          </div>
+
+          <div
+          class="project-image project-img-kiosk"
+          aria-label="Kiosk Incident Copilot 이미지 영역"
+          >
+            <div class="kiosk-illust" aria-hidden="true">
+              <div class="kiosk-screen">
+                KIOSK<br />
+                COPILOT
+              </div>
+              <div class="kiosk-panel"></div>
+              <div class="kiosk-base"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 01 -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">NFC/QR 기반 출입·근태 관리 운영 시스템</h3>
+            <strong class="project-role">C# WPF / ASP.NET Core Web API / Web Admin / MSSQL</strong>
+            <p>
+              <strong>현장 인증 클라이언트와 관리자 운영 시스템</strong><br />
+              NFC 카드 또는 QR코드를 이용해 출입과 근태를 인증하고, WPF 현장
+              클라이언트, REST API 서버, Web Admin을 연동하여 사용자·인증수단·장소·권한·이력·통계를
+              관리하는 운영 플랫폼입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="nfcqr-modal"
+              >
+                상세
+              </button>
+
+              <a
+                class="project-action link"
+                href="https://nq-acams.swsung72.site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                바로가기
+              </a>
+            </div>
+          </div>
+
+          <div
+          class="project-image project-img-nfc-qr"
+          aria-label="NFC/QR 기반 출입·근태 관리 운영 시스템 이미지 영역"
+        >
+          <div class="nfc-qr-illust" aria-hidden="true">
+            <div class="nfc-waves left">
+              <span></span><span></span><span></span>
+            </div>
+        
+            <div class="nfc-phone">
+              <span>NFC</span>
+            </div>
+        
+            <div class="nfc-waves right">
+              <span></span><span></span><span></span>
+            </div>
+        
+            <svg class="qr-icon" viewBox="0 0 368 368" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="m 16,16 0,16 0,16 0,16 0,16 0,16 0,16 0,16 16,0 16,0 16,0 16,0 16,0 16,0 16,0 0,-16 0,-16 0,-16 0,-16 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 -16,0 -16,0 -16,0 -16,0 z m 128,0 0,16 0,16 16,0 0,-16 16,0 0,-16 -16,0 -16,0 z m 32,16 0,16 16,0 0,-16 -16,0 z m 16,16 0,16 16,0 16,0 0,-16 0,-16 0,-16 -16,0 0,16 0,16 -16,0 z m 0,16 -16,0 -16,0 -16,0 0,16 16,0 16,0 0,16 -16,0 0,16 16,0 0,16 16,0 0,-16 16,0 0,16 -16,0 0,16 -16,0 0,16 16,0 16,0 0,16 16,0 0,-16 0,-16 0,-16 0,-16 0,-16 -16,0 0,-16 -16,0 0,-16 z m 16,112 -16,0 0,16 -16,0 0,16 0,16 16,0 0,16 0,16 -16,0 -16,0 0,-16 16,0 0,-16 -16,0 0,-16 0,-16 -16,0 0,-16 16,0 0,16 16,0 0,-16 0,-16 -16,0 -16,0 0,-16 -16,0 -16,0 -16,0 0,16 -16,0 0,16 -16,0 0,-16 16,0 0,-16 -16,0 -16,0 0,16 -16,0 0,16 0,16 0,16 16,0 0,-16 16,0 16,0 16,0 0,-16 16,0 0,-16 16,0 0,16 -16,0 0,16 16,0 0,16 -16,0 0,16 16,0 16,0 0,16 0,16 0,16 16,0 0,16 16,0 16,0 16,0 0,16 -16,0 -16,0 -16,0 0,-16 -16,0 0,16 0,16 16,0 0,16 -16,0 0,16 16,0 16,0 0,-16 16,0 0,16 16,0 16,0 16,0 16,0 0,-16 16,0 0,16 16,0 16,0 16,0 0,-16 -16,0 -16,0 0,-16 -16,0 0,-16 -16,0 0,16 -16,0 -16,0 0,16 -16,0 0,-16 16,0 0,-16 0,-16 0,-16 16,0 0,-16 -16,0 -16,0 0,-16 16,0 0,-16 0,-16 0,-16 -16,0 0,-16 z m 48,128 0,-16 -16,0 0,16 16,0 z m 32,16 16,0 16,0 0,-16 -16,0 -16,0 0,16 z m 32,-16 16,0 0,-16 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 0,-16 -16,0 0,16 -16,0 0,16 0,16 16,0 0,-16 16,0 0,16 0,16 16,0 16,0 0,16 z m -48,-80 0,-16 -16,0 -16,0 0,16 16,0 16,0 z m 16,0 16,0 0,-16 0,-16 0,-16 16,0 0,16 16,0 0,16 16,0 0,-16 0,-16 -16,0 0,-16 16,0 0,-16 -16,0 -16,0 0,16 -16,0 0,-16 -16,0 0,16 -16,0 0,16 16,0 0,16 0,16 0,16 z m -16,-48 -16,0 0,16 16,0 0,-16 z m 64,32 -16,0 0,16 16,0 0,-16 z m -224,0 0,-16 -16,0 0,16 16,0 z m -16,0 -16,0 -16,0 -16,0 0,16 16,0 16,0 16,0 0,-16 z m -64,0 -16,0 0,16 16,0 0,-16 z m 0,-48 0,-16 -16,0 0,16 16,0 z m 112,-16 16,0 0,-16 0,-16 -16,0 0,16 0,16 z m 96,-128 0,16 0,16 0,16 0,16 0,16 0,16 0,16 16,0 16,0 16,0 16,0 16,0 16,0 16,0 0,-16 0,-16 0,-16 0,-16 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 -16,0 -16,0 -16,0 -16,0 z m -208,16 16,0 16,0 16,0 16,0 16,0 0,16 0,16 0,16 0,16 0,16 -16,0 -16,0 -16,0 -16,0 -16,0 0,-16 0,-16 0,-16 0,-16 0,-16 z m 224,0 16,0 16,0 16,0 16,0 16,0 0,16 0,16 0,16 0,16 0,16 -16,0 -16,0 -16,0 -16,0 -16,0 0,-16 0,-16 0,-16 0,-16 0,-16 z m -208,16 0,16 0,16 0,16 16,0 16,0 16,0 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 z m 224,0 0,16 0,16 0,16 16,0 16,0 16,0 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 z m -32,96 0,16 16,0 0,-16 -16,0 z m -224,96 0,16 0,16 0,16 0,16 0,16 0,16 0,16 16,0 16,0 16,0 16,0 16,0 16,0 16,0 0,-16 0,-16 0,-16 0,-16 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 -16,0 -16,0 -16,0 -16,0 z m 16,16 16,0 16,0 16,0 16,0 16,0 0,16 0,16 0,16 0,16 0,16 -16,0 -16,0 -16,0 -16,0 -16,0 0,-16 0,-16 0,-16 0,-16 0,-16 z m 16,16 0,16 0,16 0,16 16,0 16,0 16,0 0,-16 0,-16 0,-16 -16,0 -16,0 -16,0 z m 288,48 0,16 16,0 0,-16 -16,0 z"
+              />
+            </svg>
+          </div>
+        </div>
+        </article>
+
+        <!-- Project 02 -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">Oracle 기반 PDF 생성 및 다채널 발송 관리 시스템</h3>
+            <strong class="project-role">Java Spring Boot / React Admin / Oracle / PDF Rendering</strong>
+            <p>
+              <strong>BillFlow PDF Manager</strong><br />
+              Oracle DB의 고객·청구·결제 데이터를 기반으로 고지서와 납부확인서를
+              PDF로 생성하고, 이메일 등 발송 채널과 생성·발송 이력을 관리하는
+              관리자 시스템입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="pdf-modal"
+              >
+                상세
+              </button>
+
+              <a
+                class="project-action link"
+                href="https://billflow.swsung72.site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                바로가기
+              </a>
+            </div>
+          </div>
+
+          <div
+          class="project-image project-img-pdf-bill"
+          aria-label="Oracle 기반 PDF 생성 및 발송 관리 시스템 이미지 영역"
+          >
+            <div class="pdf-bill-card" aria-hidden="true">
+              <div class="pdf-bill-header">
+                <span>요금 고지서</span>
+                <strong>PDF</strong>
+              </div>
+          
+              <div class="pdf-bill-body">
+                <div class="pdf-bill-amount">
+                  <span>이번 달 납부금액</span>
+                  <strong>50,440</strong>
+                </div>
+          
+                <div class="pdf-bill-section">
+                  <i></i>
+                  <span></span>
+                </div>
+          
+                <div class="pdf-bill-table">
+                  <span></span><span></span>
+                  <span></span><span></span>
+                  <span></span><span></span>
+                </div>
+          
+                <div class="pdf-bill-stats">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 03 -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">KnowledgeOps 문서 기반 AI 질의응답 평가 플랫폼</h3>
+            <strong class="project-role">Spring Boot / Spring AI / RAG / SFT / pgvector</strong>
+            <p>
+              <strong>로컬 LLM 기반 RAG & SFT 실험 플랫폼</strong><br />
+              네트워크·통신 규격서와 운영 매뉴얼을 기반으로 문서를 인덱싱하고,
+              근거 문서가 포함된 답변을 생성하며, Base·RAG·SFT·RAG+SFT 결과를
+              비교 평가하는 AI 포트폴리오 프로젝트입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="knowledgeops-modal"
+              >
+                상세
+              </button>
+
+              <button
+              type="button"
+              class="project-action link disabled"
+              disabled
+              >
+                준비중
+              </button>
+            </div>
+          </div>
+
+          <div
+          class="project-image project-img-knowledgeops"
+          aria-label="KnowledgeOps 문서 기반 AI 질의응답 평가 플랫폼 이미지 영역"
+          >
+            <div class="knowledgeops-visual" aria-hidden="true">
+              <svg class="knowledgeops-icon" viewBox="0 0 496 496" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <g>
+                    <g>
+                      <path d="M40,449.472V364.28L58.424,352H88v-16H53.576L24,355.72v93.752C14.704,452.784,8,461.584,8,472c0,13.232,10.768,24,24,24
+                        s24-10.768,24-24C56,461.584,49.288,452.784,40,449.472z M32,480c-4.416,0-8-3.584-8-8c0-4.416,3.584-8,8-8s8,3.584,8,8
+                        C40,476.416,36.416,480,32,480z"/>
+                      <path d="M46.528,320H88v-16H46.528c-3.312-9.288-12.112-16-22.528-16c-13.232,0-24,10.768-24,24s10.768,24,24,24
+                        C34.416,336,43.216,329.288,46.528,320z M16,312c0-4.416,3.584-8,8-8s8,3.584,8,8c0,4.416-3.584,8-8,8S16,316.416,16,312z"/>
+                      <path d="M24,272c10.416,0,19.216-6.712,22.528-16H88v-16H46.528c-3.312-9.296-12.112-16-22.528-16c-13.232,0-24,10.768-24,24
+                        S10.768,272,24,272z M24,240c4.416,0,8,3.584,8,8s-3.584,8-8,8s-8-3.584-8-8C16,243.584,19.584,240,24,240z"/>
+                      <rect x="56" y="272" width="32" height="16"/>
+                      <rect x="56" y="208" width="32" height="16"/>
+                      <rect y="176" width="88" height="16"/>
+                      <path d="M60.688,160H88v-16H67.312L48,124.688v-14.16C57.288,107.216,64,98.416,64,88c0-13.232-10.768-24-24-24S16,74.768,16,88
+                        c0,10.416,6.704,19.216,16,22.528v20.784L60.688,160z M40,80c4.416,0,8,3.584,8,8s-3.584,8-8,8s-8-3.584-8-8S35.584,80,40,80z"/>
+                      <polygon points="144,67.312 144,88 160,88 160,60.688 131.312,32 0,32 0,48 124.688,48 			"/>
+                      <polygon points="176,35.312 176,88 192,88 192,28.688 163.312,0 0,0 0,16 156.688,16 			"/>
+                      <rect x="208" y="56" width="16" height="32"/>
+                      <rect x="304" width="16" height="88"/>
+                      <path d="M240,46.528V88h16V59.312l16,16V88h16V68.688L262.392,43.08C268.192,38.696,272,31.816,272,24c0-13.232-10.768-24-24-24
+                        s-24,10.768-24,24C224,34.416,230.704,43.216,240,46.528z M248,16c4.416,0,8,3.584,8,8s-3.584,8-8,8s-8-3.584-8-8
+                        S243.584,16,248,16z"/>
+                      <path d="M352,51.312L371.312,32h78.16c2.416,6.776,7.752,12.112,14.528,14.528v110.16L444.688,176H408v16h43.312L480,163.312
+                        V46.528c9.288-3.312,16-12.112,16-22.528c0-13.232-10.768-24-24-24c-10.416,0-19.216,6.712-22.528,16h-84.784L336,44.688V88h16
+                        V51.312z M472,16c4.416,0,8,3.584,8,8s-3.584,8-8,8c-4.416,0-8-3.584-8-8S467.584,16,472,16z"/>
+                      <path d="M414.08,97.392l17.92,17.92v9.376L412.688,144H408v16h11.312L448,131.312v-22.624L419.312,80h-4.784
+                        c-3.312-9.288-12.112-16-22.528-16c-13.232,0-24,10.768-24,24s10.768,24,24,24C401.904,112,410.416,105.968,414.08,97.392z
+                         M392,96c-4.416,0-8-3.584-8-8s3.584-8,8-8c4.416,0,8,3.584,8,8S396.416,96,392,96z"/>
+                      <rect x="408" y="208" width="88" height="16"/>
+                      <path d="M480,449.472V268.688L451.312,240H408v16h36.688L464,275.312v41.376L451.312,304H408v16h36.688L464,339.312v110.16
+                        c-9.296,3.312-16,12.112-16,22.528c0,13.232,10.768,24,24,24s24-10.768,24-24C496,461.584,489.288,452.784,480,449.472z M472,480
+                        c-4.416,0-8-3.584-8-8c0-4.416,3.584-8,8-8c4.416,0,8,3.584,8,8C480,476.416,476.416,480,472,480z"/>
+                      <rect x="408" y="272" width="32" height="16"/>
+                      <path d="M448,364.688L419.312,336H408v16h4.688L432,371.312V416h-80v-8h-16v24h96v12.688L412.688,464h-14.16
+                        c-3.312-9.288-12.112-16-22.528-16c-13.232,0-24,10.768-24,24s10.768,24,24,24c10.416,0,19.216-6.712,22.528-16h20.784
+                        L448,451.312V364.688z M376,480c-4.416,0-8-3.584-8-8c0-4.416,3.584-8,8-8c4.416,0,8,3.584,8,8C384,476.416,380.416,480,376,480z
+                        "/>
+                      <path d="M160,408h-16v8h-41.472c-3.312-9.288-12.112-16-22.528-16c-13.232,0-24,10.768-24,24s10.768,24,24,24
+                        c10.416,0,19.216-6.712,22.528-16H160V408z M80,432c-4.416,0-8-3.584-8-8c0-4.416,3.584-8,8-8s8,3.584,8,8
+                        C88,428.416,84.416,432,80,432z"/>
+                      <rect x="304" y="408" width="16" height="88"/>
+                      <rect x="272" y="408" width="16" height="88"/>
+                      <path d="M240,420.688l-16,16V408h-16v41.472c-9.296,3.312-16,12.112-16,22.528c0,13.232,10.768,24,24,24s24-10.768,24-24
+                        c0-7.816-3.808-14.696-9.608-19.08L256,427.312V408h-16V420.688z M216,480c-4.416,0-8-3.584-8-8c0-4.416,3.584-8,8-8s8,3.584,8,8
+                        C224,476.416,220.416,480,216,480z"/>
+                      <polygon points="192,408 176,408 176,428.688 152,452.688 152,496 168,496 168,459.312 192,435.312 			"/>
+                      <path d="M336,392h16v-16h24v-24h16v-16h-16v-16h16v-16h-16v-16h16v-16h-16v-16h16v-16h-16v-16h16v-16h-16v-16h16v-16h-16v-16h16
+                        v-16h-16v-24h-24v-16h-16v16h-16v-16h-16v16h-16v-16h-16v16h-16v-16h-16v16h-16v-16h-16v16h-16v-16h-16v16h-16v-16h-16v16h-3.312
+                        L120,140.688V144h-16v16h16v16h-16v16h16v16h-16v16h16v16h-16v16h16v16h-16v16h16v16h-16v16h16v16h-16v16h16v24h24v16h16v-16h16
+                        v16h16v-16h16v16h16v-16h16v16h16v-16h16v16h16v-16h16v16h16v-16h16V392z M136,360V147.312L147.312,136H360v224H136z"/>
+                      <path d="M318.888,211.048l13.96-13.96l-33.936-33.936l-13.96,13.96c-4.16-2.184-8.488-3.976-12.952-5.384V152h-48v19.728
+                        c-4.472,1.408-8.8,3.2-12.952,5.384l-13.96-13.96l-33.936,33.936l13.96,13.96c-2.176,4.16-3.976,8.488-5.384,12.952H152v48
+                        h19.728c1.408,4.472,3.2,8.8,5.384,12.952l-13.96,13.96l33.936,33.936l13.96-13.96c4.16,2.176,8.48,3.976,12.952,5.384V344h48
+                        v-19.728c4.472-1.408,8.8-3.2,12.952-5.384l13.96,13.96l33.936-33.936l-13.96-13.96c2.176-4.152,3.976-8.48,5.384-12.952H344v-48
+                        h-19.728C322.864,219.528,321.072,215.2,318.888,211.048z M328,256h-16.224l-1.416,6.224c-1.6,7.016-4.368,13.672-8.216,19.792
+                        l-3.408,5.408l11.496,11.496l-11.312,11.312l-11.496-11.496l-5.408,3.408c-6.12,3.848-12.776,6.616-19.792,8.216L256,311.776V328
+                        h-16v-16.224l-6.224-1.416c-7.016-1.6-13.672-4.368-19.792-8.216l-5.408-3.408l-11.496,11.496l-11.312-11.312l11.496-11.496
+                        l-3.408-5.408c-3.848-6.12-6.616-12.776-8.216-19.792L184.224,256H168v-16h16.224l1.416-6.224
+                        c1.6-7.016,4.368-13.672,8.216-19.792l3.408-5.408l-11.496-11.496l11.312-11.312l11.496,11.488l5.408-3.408
+                        c6.12-3.848,12.776-6.616,19.792-8.216l6.224-1.408V168h16v16.224l6.224,1.416c7.016,1.6,13.672,4.368,19.792,8.216l5.408,3.408
+                        l11.496-11.488l11.312,11.312l-11.496,11.496l3.408,5.408c3.848,6.12,6.616,12.776,8.216,19.792l1.416,6.216H328V256z"/>
+                      <path d="M248,208c-22.056,0-40,17.944-40,40c0,22.056,17.944,40,40,40c22.056,0,40-17.944,40-40C288,225.944,270.056,208,248,208
+                        z M248,272c-13.232,0-24-10.768-24-24s10.768-24,24-24s24,10.768,24,24S261.232,272,248,272z"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+          
+              <div class="knowledgeops-label">RAG</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 04 -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">Mini SCADA 설비 모니터링 시스템</h3>
+            <strong class="project-role">Spring Boot / Modbus / MQTT / TimescaleDB / React</strong>
+            <p>
+              <strong>산업용 설비 실시간 관제 플랫폼</strong><br />
+              Modbus 기반 설비 데이터를 수집하고, TimescaleDB에 시계열 데이터로 저장한 뒤
+              MQTT over WebSockets를 통해 실시간 대시보드와 알람 상태를 렌더링하는
+              미니 SCADA 모니터링 시스템입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="scada-modal"
+              >
+                상세
+              </button>
+
+              <a
+                class="project-action link"
+                href="https://scada.swsung72.site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                바로가기
+              </a>
+            </div>
+          </div>
+
+          <div
+          class="project-image project-img-scada-ui"
+          aria-label="Mini SCADA 설비 모니터링 시스템 이미지 영역"
+        >
+          <div class="scada-panel" aria-hidden="true">
+            <div class="scada-header">
+              <span>SCADA</span>
+              <strong>ALARM</strong>
+            </div>
+        
+            <div class="scada-body">
+              <div class="scada-chart">
+                <svg viewBox="0 0 120 70">
+                  <polyline
+                    points="4,52 22,44 38,48 54,30 72,36 90,18 116,24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <line x1="4" y1="62" x2="116" y2="62" stroke="currentColor" stroke-width="2" opacity="0.25"/>
+                  <line x1="4" y1="8" x2="4" y2="62" stroke="currentColor" stroke-width="2" opacity="0.25"/>
+                </svg>
+              </div>
+        
+              <div class="scada-metrics">
+                <div><span>TEMP</span><b>72</b></div>
+                <div><span>RPM</span><b>1480</b></div>
+                <div><span>PSI</span><b>31</b></div>
+              </div>
+        
+              <svg class="scada-factory" viewBox="0 0 180 58" aria-hidden="true">
+                <!-- factory body -->
+                <path
+                  d="M10 48V24l22 12V24l22 12V18h22v30H10z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="4"
+                  stroke-linejoin="round"
+                />
+              
+                <!-- chimney -->
+                <path
+                  d="M66 18V8h18v40"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="4"
+                  stroke-linejoin="round"
+                />
+              
+                <!-- windows -->
+                <rect x="20" y="38" width="8" height="7" fill="currentColor" />
+                <rect x="38" y="38" width="8" height="7" fill="currentColor" />
+                <rect x="58" y="38" width="8" height="7" fill="currentColor" />
+              
+                <!-- sensor line -->
+                <line x1="88" y1="42" x2="160" y2="42" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                <circle cx="102" cy="42" r="5" fill="currentColor" />
+                <circle cx="132" cy="42" r="5" fill="currentColor" />
+                <rect x="150" y="31" width="22" height="22" rx="5" fill="none" stroke="currentColor" stroke-width="4" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        </article>
+
+        <!-- Project 05 -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">빈자리 실시간 예약 및 스케줄링 플랫폼</h3>
+            <strong class="project-role">FastAPI / React / PostgreSQL / Redis / WebSocket</strong>
+            <p>
+              <strong>동시성 제어 기반 예약 관리 시스템</strong><br />
+              사용자가 빈 시간대를 조회하고 예약을 신청하면, Redis 임시 선점과
+              PostgreSQL 트랜잭션을 통해 동일 슬롯의 중복 예약을 방지하는
+              실시간 예약 스케줄링 플랫폼입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="binjari-modal"
+              >
+                상세
+              </button>
+
+              <a
+                class="project-action link"
+                href="https://binjari.swsung72.site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                바로가기
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="project-image has-img project-img-booking"
+            aria-label="빈자리 실시간 예약 및 스케줄링 플랫폼 이미지 영역"
+          >
+            <img src="images/binjari.png" alt="빈자리 실시간 예약 플랫폼 스크린샷" />
+          </div>
+        </article>
+
+        <!-- Project 06 -->
+        <article class="project-card">
+          <div class="project-text">
+            <div class="project-bar"></div>
+            <h3 class="project-title">중앙선거관리위원회 유무선통신장비 및 NMS 관제</h3>
+            <strong class="project-role">C/C++ / C# / Spring Boot / MySQL / Jenkins</strong>
+            <p>
+              <strong>사전투표소 통신장비 F/W 및 관제 시스템</strong><br />
+              사전투표소에서 사용되는 LTE 라우터 기반 유·무선 통신장비의 펌웨어와
+              장비 제어 도구를 개발하고, NMS 관제 웹페이지를 통해 장비 상태,
+              로그, 경보를 관리한 운영 중심 프로젝트입니다.
+            </p>
+            <div class="project-actions">
+              <button
+                type="button"
+                class="project-action detail"
+                data-modal-target="nec-nms-modal"
+              >
+                상세
+              </button>
+
+              <button
+              type="button"
+              class="project-action link disabled"
+              disabled
+              >
+                준비중
+              </button>
+            </div>
+          </div>
+
+          <div
+          class="project-image project-img-nms"
+          aria-label="중앙선거관리위원회 유무선통신장비 및 NMS 관제 이미지 영역"
+          >
+            <div class="nms-monitor-panel" aria-hidden="true">
+              <svg class="nms-chart-icon" viewBox="0 0 120 90">
+                <line x1="18" y1="78" x2="104" y2="78" />
+          
+                <rect x="24" y="54" width="12" height="24" rx="1" />
+                <rect x="48" y="36" width="12" height="42" rx="1" />
+                <rect x="72" y="48" width="12" height="30" rx="1" />
+                <rect x="96" y="28" width="12" height="50" rx="1" />
+          
+                <polyline points="30,42 54,24 78,34 102,14" />
+          
+                <circle cx="30" cy="42" r="5" />
+                <circle cx="54" cy="24" r="5" />
+                <circle cx="78" cy="34" r="5" />
+                <circle cx="102" cy="14" r="5" />
+              </svg>
+          
+              <div class="nms-monitor-label">
+                NMS<br />
+                MONITOR
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+  </div>
+
+  <div class="project-modal" id="nfcqr-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">
+        WPF · Backend Portfolio
+        <em class="modal-made-badge">자체제작</em>
+      </span>
+      
+      <h3 id="modal-title">NFC/QR 기반 출입·근태 관리 운영 시스템</h3>
+      <div class="modal-hero-image">
+        <img src="images/nfcqr.png" alt="NFC/QR 기반 출입·근태 관리 운영 시스템 화면 예시" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/nfcqr.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>
+      <p class="modal-summary">
+        NFC 카드 또는 QR코드 입력을 WPF 현장 클라이언트에서 수신하고,
+        ASP.NET Core Web API 서버가 사용자, 인증수단, 장소, 권한을 검증한 뒤
+        출입 이력과 근태 이벤트를 MSSQL에 저장하는 실무형 운영 플랫폼입니다.
+        Web Admin에서는 사용자, 인증수단, 장소, 권한, 이력, 통계, 감사 로그를 관리할 수 있도록 구성했습니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>C#</span>
+        <span>WPF</span>
+        <span>MVVM</span>
+        <span>ASP.NET Core</span>
+        <span>REST API</span>
+        <span>MSSQL</span>
+        <span>Entity Framework</span>
+        <span>Dapper</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          WPF 현장 인증 클라이언트, REST API 인증 흐름, MSSQL 데이터 모델,
+          Web Admin 운영 기능을 하나의 출입·근태 시나리오로 연결했습니다.
+          특히 오프라인 큐, 재전송, 중복 태깅 방지, 인증 실패 코드, 감사 로그 등
+          실제 현장 운영에서 필요한 안정성 요소를 설계에 반영했습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>NFC 카드 및 QR코드 기반 출입·근태 인증 처리</li>
+            <li>사용자, 인증수단, 장소, 출입 권한 관리</li>
+            <li>미등록 인증수단, 권한 없음, 만료 QR 등 실패 사유 코드화</li>
+            <li>네트워크 장애 시 로컬 큐 저장 및 서버 복구 후 재전송</li>
+            <li>출입 이력, 근태 현황, 미등록 인증수단, 감사 로그 조회</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Technical Point</h4>
+          <ul>
+            <li>WPF MVVM 기반 현장 인증 클라이언트 구조 설계</li>
+            <li>ASP.NET Core Web API 중심의 인증 판단 및 이력 저장</li>
+            <li>Entity Framework와 Dapper 역할 분리</li>
+            <li>client_event_id 기반 중복 저장 방지</li>
+            <li>DPAPI 기반 로컬 큐 암호화와 시간 신뢰도 추적</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="project-modal" id="pdf-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="pdf-modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">
+        Backend · Admin Portfolio
+        <em class="modal-made-badge">자체제작</em>
+      </span>
+  
+      <h3 id="pdf-modal-title">Oracle 기반 PDF 생성 및 다채널 발송 관리 시스템</h3>
+      <div class="modal-hero-image">
+        <img src="images/billflow.png" alt="Oracle 기반 PDF 생성 및 발송 관리 시스템 화면 예시" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/billflow.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>
+      <p class="modal-summary">
+        Oracle DB에 저장된 고객, 청구, 결제 데이터를 조회하여 고지서와 납부확인서
+        PDF를 생성하고, 생성된 문서를 다운로드하거나 이메일 발송까지 관리하는
+        관리자 시스템입니다. DB 조회 쿼리, 문서용 alias, HTML 템플릿, 변수 매핑,
+        PDF 생성 이력과 발송 이력을 분리하여 문서 양식 변경에 유연하게 대응할 수 있도록 설계했습니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Spring Security</span>
+        <span>JWT</span>
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>Oracle</span>
+        <span>PDF Rendering</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          Oracle 조회 쿼리 관리, HTML 템플릿 버전 관리, 템플릿 변수와 쿼리 alias 매핑,
+          PDF 생성 및 다운로드, 이메일 발송 이력 관리 흐름을 설계했습니다.
+          SQL 직접 실행 기능의 위험을 줄이기 위해 SELECT 제한, 파라미터 바인딩,
+          실행 타임아웃, 결과 건수 제한 등 검증 정책을 함께 반영했습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>Oracle 조회 쿼리 등록, 테스트 실행, 결과 컬럼 alias 설정</li>
+            <li>HTML 템플릿 등록, 미리보기, 변수 자동 추출, 버전 관리</li>
+            <li>템플릿 변수와 쿼리 alias 매핑 및 포맷 규칙 설정</li>
+            <li>단건·다건 PDF 생성, 미리보기, 다운로드 처리</li>
+            <li>PDF 생성 이력, 데이터 스냅샷, 발송 성공·실패 이력 관리</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Backend Point</h4>
+          <ul>
+            <li>JWT 기반 관리자·일반 사용자 인증 구조 설계</li>
+            <li>역할 기반 권한 정책과 화면 접근 제어 적용</li>
+            <li>SQL 검증, 파라미터 바인딩, 실행 제한 정책 반영</li>
+            <li>생성 당시 템플릿 버전과 RenderData 스냅샷 저장</li>
+            <li>이메일 우선 발송 구조와 웹팩스·알림톡 확장 가능 구조 고려</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="project-modal" id="knowledgeops-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="knowledgeops-modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">
+        AI · Backend Portfolio
+        <em class="modal-made-badge">자체제작</em>
+      </span>
+  
+      <h3 id="knowledgeops-modal-title">KnowledgeOps 문서 기반 AI 질의응답 평가 플랫폼</h3>
+      <div class="modal-hero-image">
+        <img src="images/knowledgeops.png" alt="KnowledgeOps 문서 기반 AI 질의응답 평가 플랫폼 화면 예시" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/knowledgeops.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>  
+      <p class="modal-summary">
+        복잡한 표와 계층 구조를 가진 네트워크·통신 프로토콜 규격서 및 운영 매뉴얼을
+        기반으로 RAG 검색, 로컬 LLM 답변 생성, SFT 어댑터 적용, 자동 평가 리포트를
+        제공하는 AI 시스템입니다. 단순 챗봇이 아니라 문서 수집, 파싱, 청킹, 임베딩,
+        검색, 생성, 평가까지 이어지는 E2E AI 파이프라인을 포트폴리오 형태로 구현하는 것을 목표로 했습니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Spring AI</span>
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>PostgreSQL</span>
+        <span>pgvector</span>
+        <span>Ollama</span>
+        <span>Redis Streams</span>
+        <span>Docker</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          문서 업로드, 파싱, chunk 분할, 임베딩 생성, 벡터 검색, RAG 답변 생성,
+          SSE 기반 스트리밍 응답, 평가셋 기반 성능 비교 흐름을 설계했습니다.
+          관리자 화면에서는 문서 인덱싱 상태, 데이터셋, 모델 설정, 평가 실행 결과를 관리하고,
+          사용자 화면에서는 답변과 함께 출처 문서, 검색 문맥, 응답 메타데이터를 확인할 수 있도록 구성했습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>PDF, DOCX, TXT, Markdown 문서 업로드 및 인덱싱</li>
+            <li>문서 파싱, 청킹, 임베딩 생성, pgvector 기반 검색</li>
+            <li>출처 문서와 검색 문맥을 포함한 RAG 답변 생성</li>
+            <li>Base, RAG, SFT, RAG+SFT 답변 비교 실험</li>
+            <li>평가셋 기반 자동 평가와 결과 대시보드 제공</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Backend Point</h4>
+          <ul>
+            <li>Spring Boot와 Spring AI 기반 AI 서비스 API 설계</li>
+            <li>Redis Streams 기반 문서 처리 및 평가 작업 비동기화</li>
+            <li>SSE 기반 토큰 스트리밍 응답 구조 적용</li>
+            <li>문서 버전 변경 시 STALE_INDEX 상태 관리</li>
+            <li>Faithfulness, Relevancy, Context Precision/Recall 등 평가 지표 관리</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="project-modal" id="scada-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="scada-modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">
+        Monitoring · Backend Portfolio
+        <em class="modal-made-badge">자체제작</em>
+      </span>
+
+      <h3 id="scada-modal-title">Mini SCADA 설비 모니터링 시스템</h3>
+      <div class="modal-hero-image">
+        <img src="images/scada.png" alt="Mini SCADA 설비 모니터링 시스템 화면 예시" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/scada.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>   
+      <p class="modal-summary">
+        Python 기반 가상 Modbus Simulator에서 설비 데이터를 생성하고,
+        Spring Boot 서버가 주기적으로 데이터를 수집하여 TimescaleDB에 저장한 뒤
+        MQTT over WebSockets로 React 대시보드에 실시간 전파하는 설비 모니터링 시스템입니다.
+        운영자는 설비 상태, 센서 값, 네트워크 상태, 알람 상태를 실시간으로 확인하고,
+        관리자는 설비 통신 설정, 센서 Tag, 임계값, 데이터 보존 정책을 관리할 수 있습니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Spring Scheduler</span>
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>Modbus TCP</span>
+        <span>MQTT</span>
+        <span>TimescaleDB</span>
+        <span>Python</span>
+        <span>Docker</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          Modbus Polling 기반 데이터 수집, 시계열 데이터 저장, MQTT 실시간 이벤트 전파,
+          알람 임계값 판정, Online/Offline 상태 판단 흐름을 설계했습니다.
+          데이터 저장은 TimescaleDB를 Source of Truth로 두고, MQTT는 실시간 이벤트 전달 계층으로 분리해
+          운영 데이터의 신뢰성과 실시간성을 함께 고려했습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>Python Modbus Simulator 기반 가상 설비 데이터 생성</li>
+            <li>Spring Scheduler와 비동기 스레드 기반 Modbus Polling 수집</li>
+            <li>온도, 압력, RPM 등 센서 Tag와 Register 주소 매핑 관리</li>
+            <li>실시간 설비 상태, 센서 값, 트렌드 차트 대시보드 표시</li>
+            <li>Warning/Critical 임계값 초과 및 통신 장애 알람 처리</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Backend Point</h4>
+          <ul>
+            <li>TimescaleDB 기반 고빈도 시계열 데이터 저장 구조 설계</li>
+            <li>MQTT Topic 기반 실시간 이벤트 Publish 구조 적용</li>
+            <li>last_seen 기준 Online/Offline 판단 로직 구현</li>
+            <li>알람 발생, Ack 처리, 알람 이력 조회 흐름 구성</li>
+            <li>Docker Compose 기반 Spring Boot, DB, MQTT Broker, Simulator 실행 구조 설계</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="project-modal" id="binjari-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="binjari-modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">
+        Booking · Backend Portfolio
+        <em class="modal-made-badge">자체제작</em>
+      </span>
+  
+      <h3 id="binjari-modal-title">빈자리 실시간 예약 및 스케줄링 플랫폼</h3>
+      <div class="modal-hero-image">
+        <img src="images/binjari-main.png" alt="빈자리 실시간 예약 및 스케줄링 플랫폼 화면 예시" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/binjari-main.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>  
+      <p class="modal-summary">
+        상담, 레슨, 회의실 등 시간 기반 서비스를 위한 실시간 예약 플랫폼입니다.
+        예약자는 월 단위 캘린더에서 가능한 슬롯을 확인하고 예약을 신청할 수 있으며,
+        호스트는 운영 시간, 예외 일정, 예약 승인/거절, 통계 대시보드를 관리할 수 있습니다.
+        핵심은 다수 사용자가 동일 시간대에 동시에 예약을 시도해도 중복 예약이 발생하지 않도록
+        Redis 임시 선점, Idempotency-Key, PostgreSQL 트랜잭션과 고유 제약조건을 함께 적용한 점입니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>FastAPI</span>
+        <span>Python</span>
+        <span>React</span>
+        <span>Vite</span>
+        <span>Tailwind CSS</span>
+        <span>React Query</span>
+        <span>PostgreSQL</span>
+        <span>SQLModel</span>
+        <span>Redis</span>
+        <span>WebSocket</span>
+        <span>Docker</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          예약 슬롯 생성, 캘린더 조회, 예약 신청, 승인/거절, 취소, 실시간 알림까지 이어지는
+          예약 라이프사이클을 설계했습니다. 특히 동일 슬롯 중복 예약을 방지하기 위해
+          Redis는 임시 선점과 빠른 상태 반영에 사용하고, 최종 예약 무결성은 PostgreSQL 트랜잭션,
+          배타적 잠금, 고유 제약조건으로 보장하는 구조를 반영했습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>이메일 로그인 및 구글 OAuth 기반 사용자 인증</li>
+            <li>월 단위 캘린더와 예약 가능 슬롯 조회</li>
+            <li>Redis TTL 기반 예약 슬롯 임시 선점</li>
+            <li>호스트 운영 시간, 휴게 시간, 예외 일정, 버퍼 타임 설정</li>
+            <li>예약 승인, 거절, 취소 및 실시간 상태 알림</li>
+            <li>일간/주간 예약 건수, 승인율, 인기 시간대 통계 조회</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Backend Point</h4>
+          <ul>
+            <li>PostgreSQL 트랜잭션과 Unique Constraint 기반 중복 예약 방지</li>
+            <li>SELECT FOR UPDATE 기반 슬롯 확정 처리</li>
+            <li>Idempotency-Key 기반 중복 예약 요청 방어</li>
+            <li>UTC 저장과 호스트 타임존 기준 정책 검증</li>
+            <li>WebSocket과 Redis Pub/Sub 기반 실시간 알림 구조 설계</li>
+            <li>pytest 기반 동시성 제어 및 예약 API 통합 테스트 구성</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="project-modal" id="nec-nms-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="nec-nms-modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">Firmware · NMS Portfolio</span>
+  
+      <h3 id="nec-nms-modal-title">중앙선거관리위원회 유무선통신장비 및 NMS 관제</h3>
+      <div class="modal-hero-image">
+        <img src="images/nms.png" alt="중앙선거관리위원회 유무선통신장비 및 NMS 관제 화면 예시" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/nms.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>  
+      <p class="modal-summary">
+        사전투표소에서 사용되는 유·무선 통신장비의 펌웨어 개발과
+        NMS(Network Management System) 관제 웹페이지 개발 및 유지보수를 수행한 프로젝트입니다.
+        LTE 라우터 기반 OpenWRT 환경에서 장비 상태 모니터링, 네트워크 모듈,
+        데이터 전송 기능을 구현하고, Spring Boot와 MySQL 기반의 관제 시스템을 통해
+        장비 상태 수집, 로그 관리, 경보 알림 기능을 운영했습니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>C</span>
+        <span>C++</span>
+        <span>C#</span>
+        <span>OpenWRT</span>
+        <span>LTE Router</span>
+        <span>Spring Boot</span>
+        <span>MySQL</span>
+        <span>Python</span>
+        <span>Jenkins</span>
+        <span>NMS</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          LTE 라우터 기반 통신장비의 펌웨어 기능 개발과 장비 제어용 C# 도구 개발을 담당했습니다.
+          또한 NMS 관제 웹페이지의 백엔드 및 운영 기능을 개발·유지보수하며,
+          장비 상태 수집, 로그 관리, 경보 알림, 자동 스케줄링 환경을 구성해
+          현장 장비 운영과 유지보수 효율성을 높였습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>OpenWRT 기반 LTE 라우터 장비 펌웨어 개발</li>
+            <li>네트워크 모듈, 장비 상태 모니터링, 데이터 전송 기능 구현</li>
+            <li>C# 기반 장비 제어 및 설정 도구 개발</li>
+            <li>NMS 웹 관제 화면 개발 및 유지보수</li>
+            <li>장비 상태 수집, 로그 관리, 경보 알림 기능 구현</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Technical Point</h4>
+          <ul>
+            <li>C/C++ 기반 임베디드 네트워크 장비 기능 개발</li>
+            <li>Spring Boot와 MySQL 기반 관제 백엔드 구성</li>
+            <li>장비 상태 및 로그 데이터의 수집·조회 구조 설계</li>
+            <li>Jenkins 기반 자동 스케줄링 환경 구성</li>
+            <li>현장 장비 운영을 고려한 유지보수 도구 및 관제 기능 개선</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="project-modal" id="kiosk-copilot-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-modal-close></div>
+  
+    <section class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="kiosk-copilot-modal-title">
+      <button type="button" class="project-modal-close" data-modal-close aria-label="닫기">
+        ×
+      </button>
+  
+      <span class="modal-label">
+        AIOps · Incident Portfolio
+        <em class="modal-made-badge">자체제작</em>
+      </span>
+  
+      <h3 id="kiosk-copilot-modal-title">Kiosk Incident Copilot</h3>
+      <div class="modal-hero-image">
+        <img src="images/kiosk-copilot.png" alt="Kiosk Incident Copilot 화면 예시 - 구현중" />
+      
+        <button
+          type="button"
+          class="modal-image-zoom"
+          data-image-src="images/kiosk-copilot.png"
+          aria-label="이미지 원본 보기"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 3H3v6h2V6.41l5.29 5.3 1.42-1.42L6.41 5H9V3z" />
+            <path d="M15 3v2h2.59l-5.3 5.29 1.42 1.42L19 6.41V9h2V3h-6z" />
+            <path d="M5 15H3v6h6v-2H6.41l5.3-5.29-1.42-1.42L5 17.59V15z" />
+            <path d="M18.59 19H15v2h6v-6h-2v2.59l-5.29-5.3-1.42 1.42 5.3 5.29z" />
+          </svg>
+        </button>
+      </div>
+
+      <p class="modal-summary">
+        무인 키오스크 운영 중 발생하는 앱 비정상 종료, 프린터 장애, 결제 단말 연결 실패,
+        Wi-Fi 장애 후 LTE 전환, SIM 상태 이상 등을 탐지하고 분석하는 AIOps 스타일의 운영 보조 시스템입니다.
+        경량 C 에이전트와 Python 시나리오 생성기를 통해 장비 상태와 로그를 수집하고,
+        규칙 기반 인시던트 생성, Hybrid RAG 검색, LLM 분석, confidence score, 승인형 액션,
+        타임라인 감사 로그까지 이어지는 대응 흐름을 구성했습니다.
+      </p>
+  
+      <div class="modal-tags">
+        <span>C</span>
+        <span>Python</span>
+        <span>FastAPI</span>
+        <span>SQLModel</span>
+        <span>PostgreSQL</span>
+        <span>pgvector</span>
+        <span>PostgreSQL FTS</span>
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>Tailwind CSS</span>
+        <span>Ollama</span>
+      </div>
+  
+      <div class="modal-section">
+        <h4>Project Contribution</h4>
+        <p>
+          키오스크 단말에서 올라오는 process 상태, 주변기기 상태, 네트워크 변화,
+          특수 오류 코드와 로그를 incident 중심으로 수집·저장하는 구조를 설계했습니다.
+          AI 분석이 실패하더라도 raw evidence, 규칙 기반 분류 결과, 검색된 runbook,
+          수동 승인 워크플로우는 계속 사용할 수 있도록 하여 운영 안정성을 고려했습니다.
+        </p>
+      </div>
+  
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Core Features</h4>
+          <ul>
+            <li>C 기반 경량 에이전트와 Python 장애 시나리오 생성기</li>
+            <li>앱, 네트워크, 결제, 프린터, SIM 상태 기반 인시던트 생성</li>
+            <li>로그 패턴, 이벤트, 메트릭 임계치 기반 rule engine</li>
+            <li>특수 오류 코드와 운영 문서를 함께 찾는 Hybrid RAG 검색</li>
+            <li>원인 후보, evidence 요약, 추천 런북, 추천 액션 제공</li>
+            <li>운영자 승인 후 액션 시뮬레이션 실행 및 감사 로그 저장</li>
+          </ul>
+        </div>
+  
+        <div class="modal-section">
+          <h4>Technical Point</h4>
+          <ul>
+            <li>incident 중심 JSONB 구조로 로그·메트릭·AI 분석 결과 저장</li>
+            <li>keyword 검색과 vector 검색을 결합한 hybrid rerank 구조</li>
+            <li>Log Slicer를 통한 LLM 입력 전 evidence 압축 및 민감정보 마스킹</li>
+            <li>runbook similarity, historical match, data clarity 기반 confidence score 산정</li>
+            <li>탐지, AI 분석, 승인, 액션 실행, 복구 확인을 연결한 timeline UX 설계</li>
+            <li>LLM timeout·실패 시 manual offline 모드와 재시도 흐름 제공</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    document.querySelectorAll("[data-modal-target]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = document.getElementById(button.dataset.modalTarget);
+        if (!modal) return;
+  
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      });
+    });
+  
+    document.querySelectorAll("[data-modal-close]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = button.closest(".project-modal");
+        if (!modal) return;
+  
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      });
+    });
+  
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
+  
+      document.querySelectorAll(".project-modal.is-open").forEach((modal) => {
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      });
+    });
+
+    document.querySelectorAll(".modal-image-zoom").forEach((button) => {
+      button.addEventListener("click", () => {
+        const imageSrc = button.dataset.imageSrc;
+        if (!imageSrc) return;
+
+        window.open(imageSrc, "_blank", "noopener,noreferrer");
+      });
+    });
+</script>
+</body>
+</html>
