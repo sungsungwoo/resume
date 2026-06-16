@@ -35,6 +35,7 @@ body {
   font-family: Inter, Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
   color: var(--text);
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 a {
@@ -431,7 +432,8 @@ main,
 
 @media (max-width: 560px) {
   .profile-badge-icons {
-    width: 240px;
+    width: 100%;
+    max-width: 248px;
     gap: 8px;
     margin-top: 18px;
   }
@@ -1883,18 +1885,30 @@ textarea {
   }
 
   .home-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 28px;
-    padding: 36px 18px 56px;
+    width: 100%;
+    max-width: 100%;
+    padding: 34px 16px 52px;
+    overflow: hidden;
   }
 
   .profile-card {
-    width: 100%;
-    padding-top: 40px;
+    width: calc(100vw - 32px);
+    max-width: 340px;
+    min-height: auto;
+    padding: 34px 20px 0;
+    align-self: center;
+    flex: 0 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .profile-photo {
-    width: 140px;
-    height: 140px;
+    width: 132px;
+    height: 132px;
   }
 
   .profile-initials {
@@ -1908,32 +1922,60 @@ textarea {
 
   .profile-card p {
     font-size: 11px;
-    letter-spacing: 0.18em;
-    margin: 14px 0 0;
+    width: 100%;
+    letter-spacing: 0.14em;
+    line-height: 1.6;
+    margin: 16px 0 0;
+    overflow-wrap: anywhere;
   }
 
   .profile-social {
+    margin-top: 42px;
     height: 52px;
     gap: 20px;
   }
 
+  .intro {
+    width: calc(100vw - 32px);
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
   .intro h2 {
     font-size: 52px;
+    color: #ffffff;
+    text-align: center;
   }
 
   .intro h3 {
     font-size: 18px;
     margin: 0 0 18px;
+    color: #eafff5;
+    text-align: center;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
   }
 
   .intro p {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 14px;
+    color: rgba(255, 255, 255, 0.82);
     line-height: 1.75;
+    text-align: center;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
   }
 
   .cta-row {
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     margin: 0 0 32px;
   }
