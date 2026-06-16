@@ -3,7 +3,7 @@ services:
     build: .
     container_name: portfolio
     ports:
-      - "8080:80"
+      - "18080:80"
     restart: unless-stopped
     volumes:
       # 이미지·파일 교체 시 컨테이너 재빌드 없이 반영됩니다.
