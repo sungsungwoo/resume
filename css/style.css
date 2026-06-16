@@ -389,6 +389,34 @@ main,
   animation-delay: 840ms;
 }
 
+.tooltip-link {
+  position: relative;
+}
+
+.tooltip-link::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: rgba(20, 55, 34, 0.96);
+  color: #eafff5;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.28);
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+  opacity: 0; 
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.tooltip-link:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-2px);
+}
+
 /* ── Motion ── */
 @keyframes fadeUp {
   from {
@@ -1930,6 +1958,9 @@ textarea {
   }
 
   .profile-social {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
     margin-top: 42px;
     height: 52px;
     gap: 20px;
