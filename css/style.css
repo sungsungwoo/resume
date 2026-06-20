@@ -2014,6 +2014,14 @@ textarea {
   .btn {
     width: 200px;
   }
+  
+  .skill-item {
+    color: #ffffff;
+  }
+  
+  .skill-item span:not(.square) {
+    color: #ffffff;
+  }
 
   /* Resume */
   .section {
