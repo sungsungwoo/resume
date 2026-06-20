@@ -568,6 +568,18 @@ main,
   animation: badgeShine 2.8s ease-in-out infinite;
 }
 
+.career-highlights {
+  margin: 14px 0 0;
+  padding-left: 18px;
+}
+
+.career-highlights li {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 4px;
+}
+
 @keyframes badgeShine {
   0% {
     left: -80%;
@@ -2015,11 +2027,11 @@ textarea {
     width: 200px;
   }
   
-  .skill-item {
+  .home .skill-item {
     color: #ffffff;
   }
   
-  .skill-item span:not(.square) {
+  .home .skill-item span:not(.square) {
     color: #ffffff;
   }
 
@@ -2058,7 +2070,7 @@ textarea {
     grid-template-columns: 1fr;
     gap: 14px;
   }
-
+  
   /* Projects */
   .section-desc {
     margin: -20px auto 40px;
